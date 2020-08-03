@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-pro/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="script.js"></script>
+    <title>Hello, world!</title>
+
+    <script>
+        function openFun() {
+            document.getElementById("menuslide").style.width = "250px";
+            document.querySelector("a.menu").style.padding = "10px";
+        }
+
+        function closeFun() {
+            document.getElementById("menuslide").style.width = "0px";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Hello World</h1>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div id="menuslide" class="menu">
+                <div class="menu_items">
+                    <a href="#" class="close_btn" onclick="closeFun()"><i class="fas fa-times"></i></a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href="">Shop Now</a>
+                    <a href="">Terms</a>
+                </div>
+            </div>
+
+            <div id="menuclick" class="menu_open" onclick="openFun()">
+                <i class="fa fa-bars"></i>
+            </div>
+
+        </nav>
+
+        <main>
+            <section>
+                <h2>Welcome to Bnagladesh</h2>
+                <h1>Bangladesh Most Visited Place <span class="change_place"></span></h1>
+                <a href="" class="btn_one">Visit Now</a>
+                <a href="" class="btn_two">Contant Now</a>
+            </section>
+        </main>
+
+    </header>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="fontawesome-pro/js/all.min.js"></script>
+</body>
+
+</html>
